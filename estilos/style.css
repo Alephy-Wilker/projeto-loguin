@@ -65,15 +65,38 @@ div#formulario > p {
 
 form > div.campo {
     background-color: rgb(139, 202, 97);
+    border: 2px solid rgb(139, 202, 97);
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
 div.campo > label {
     display: none;
+}
+
+div.campo > i {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: hwb(266 65% 1%);
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 46px);
+    transform: translateY(-12px);
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+div.campo > input:focus-within {
+    background-color: white;
 }
 
 form > input[type=submit] {
