@@ -64,8 +64,8 @@ div#formulario > p {
 }
 
 form > div.campo {
-    background-color: #862900;
-    border: 2px solid #862900;
+    background-color: rgb(31, 30, 30);
+    border: 2px solid rgb(31, 30, 30);
     width: 100%;
     display: block;
     height: 40px;
@@ -85,7 +85,7 @@ div.campo > i {
 }
 
 div.campo > input {
-    background-color: #f5cab8;
+    background-color: rgb(214, 211, 211);
     font-size: 1em;
     height: 100%;
     width: calc(100% - 46px);
